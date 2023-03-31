@@ -1,0 +1,65 @@
+body {
+    margin: 1.5em;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+.logo {
+    font-weight: bold;
+    color: #79ADDC
+}
+
+span {
+    color: #3A3A3A;
+}
+
+nav {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+    svg {
+        width: 2em;
+        margin-top: -.10em;
+        cursor: pointer;
+    }
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 3em;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.subfrase{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+section.hero {
+    height: 90vh;
+
+    a {
+        padding: 0.5em;
+        background-color: #3A3A3A;
+        border-radius: 5%;
+        color: white;
+    }
+
+    svg {
+        display: block;
+        position: absolute;
+        bottom: 2em;
+        width: 80em;
+    }
+    
+}
